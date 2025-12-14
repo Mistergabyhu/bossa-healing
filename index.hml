@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>Bossa Healing – 我心中的風與水</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC",sans-serif;
+  background:#f4f1e8;
+  color:#1f3d3a;
+}
+.container{
+  max-width:1080px;
+  margin:0 auto;
+  padding:32px 20px 60px;
+}
+.hero{
+  display:flex;
+  gap:32px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.hero-cover img{
+  width:320px;
+  max-width:100%;
+  border-radius:12px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+.hero-text h1{
+  font-size:26px;
+  letter-spacing:0.18em;
+  margin:0 0 8px;
+}
+.hero-text h2{
+  font-size:22px;
+  margin:0 0 12px;
+}
+.hero-text p{
+  line-height:1.6;
+}
+.btn-group{
+  margin-top:20px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.btn{
+  padding:10px 20px;
+  border-radius:999px;
+  font-size:15px;
+  border:none;
+  cursor:pointer;
+  text-decoration:none;
+  display:inline-block;
+}
+.btn-primary{
+  background:#b4df53; /* 對應封面綠 */
+  color:#10302b;
+}
+.btn-secondary{
+  background:transparent;
+  color:#10302b;
+  border:1px solid #10302b;
+}
+.section{
+  margin-top:40px;
+}
+.section h3{
+  font-size:20px;
+  margin-bottom:12px;
+}
+.tracklist{
+  border-radius:12px;
+  background:rgba(255,255,255,0.8);
+  padding:16px 20px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+.track{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:8px 0;
+  border-bottom:1px solid rgba(0,0,0,0.06);
+}
+.track:last-child{
+  border-bottom:none;
+}
+.track-title{
+  font-size:15px;
+}
+.track button{
+  border-radius:999px;
+  border:none;
+  padding:6px 14px;
+  font-size:13px;
+  cursor:pointer;
+}
+.badge-list li{
+  margin-bottom:6px;
+}
+.faq-item{
+  margin-bottom:16px;
+}
+.faq-item b{
+  display:block;
+  margin-bottom:4px;
+}
+.footer-cta{
+  text-align:center;
+  margin-top:40px;
+  padding-top:24px;
+  border-top:1px solid rgba(0,0,0,0.08);
+}
+.footer-cta p{
+  margin-bottom:16px;
+  line-height:1.7;
+}
+@media (max-width:768px){
+  .hero{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Hero 區 -->
+  <section class="hero">
+    <div class="hero-cover">
+      <img src="bossa-healing-cover.jpg" alt="Bossa Healing 我心中的風與水 專輯封面">
+    </div>
+    <div class="hero-text">
+      <h1>BOSSA HEALING · INTRO VOL.1</h1>
+      <h2>《我心中的風與水》</h2>
+      <p>一張為「大人」而寫的療癒專輯，給撐太久、說不出口的你。<br>
+      以 Bossa Nova 節奏結合腦波調變，讓風與水輕柔地沖刷，你心裡那些來不及整理的疲憊。</p>
+      <div class="btn-group">
+        <a href="#player" class="btn btn-primary">🎧 立即試聽</a>
+        <a href="https://your-buy-link-here" class="btn btn-secondary" target="_blank">📚 前往購買有聲書</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 試聽區 -->
+  <section class="section" id="player">
+    <h3>收聽片段 · 感受風與水的節奏</h3>
+    <p>每首歌提供約 30 秒試聽片段，建議戴上耳機，讓自己暫時離線片刻。</p>
+    <div class="tracklist">
+      <div class="track">
+        <span class="track-title">01. Caminho Branco – 雪白色的路</span>
+        <button>▶︎ 播放</button>
+      </div>
+      <div class="track">
+        <span class="track-title">02. Água do Coração – 心之流動</span>
+        <button>▶︎ 播放</button>
+      </div>
+      <div class="track">
+        <span class="track-title">03. Silêncio do Mar – 海的靜默</span>
+        <button>▶︎ 播放</button>
+      </div>
+      <div class="track">
+        <span class="track-title">04. Onda da Liberdade – 自由之浪</span>
+        <button>▶︎ 播放</button>
+      </div>
+      <div class="track">
+        <span class="track-title">05. Saudade Serena – 靜謐的思念</span>
+        <button>▶︎ 播放</button>
+      </div>
+      <div class="track">
+        <span class="track-title">06. Novo Sol – 新的太陽</span>
+        <button>▶︎ 播放</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 賣點區 -->
+  <section class="section">
+    <h3>為什麼值得讓這張專輯，住進你的日常？</h3>
+    <ul class="badge-list">
+      <li>• 不是背景音樂，是「穩住情緒」的小儀式。</li>
+      <li>• Bossa Nova × 腦波調變，讓身心慢慢回到平穩。</li>
+      <li>• 來自真實生命故事的創作，陪你走過自己的黑夜。</li>
+    </ul>
+  </section>
+
+  <!-- 適合對象 -->
+  <section class="section">
+    <h3>如果你符合其中一項，這張專輯就是為你準備的——</h3>
+    <ul class="badge-list">
+      <li>• 總是為別人撐著，卻很少有人問你累不累。</li>
+      <li>• 晚上躺在床上，腦袋還停不下來。</li>
+      <li>• 常覺得「應該要很知足」，卻還是覺得心裡空空的。</li>
+      <li>• 需要一個溫柔、不打擾的聲音陪你工作或創作。</li>
+      <li>• 喜歡 Bossa Nova、爵士、Lofi 類型的輕音樂。</li>
+      <li>• 正在經歷轉職、離婚、照護家人等人生轉折。</li>
+    </ul>
+  </section>
+
+  <!-- 使用情境 -->
+  <section class="section">
+    <h3>讓《我心中的風與水》，成為你生活裡的小小儀式</h3>
+    <ul class="badge-list">
+      <li>• 睡前 30 分鐘：關掉通知，只留音樂與燈光，慢慢從緊繃切換到放鬆。</li>
+      <li>• 通勤途中：在擁擠的車廂裡，用耳機打造屬於自己的安靜角落。</li>
+      <li>• 寫作 / 工作專注時間：循環播放整張專輯，穩穩把事情做完。</li>
+      <li>• 情緒低落時：挑一首最有感的歌，允許自己好好難過一次，再繼續前進。</li>
+    </ul>
+  </section>
+
+  <!-- 作者介紹 -->
+  <section class="section">
+    <h3>關於創作者 · 胡理安 Gabriel Hu</h3>
+    <p>跨足音樂、文字與身心靈領域的創作者，成長於台灣與巴西之間，在拉丁音樂與東方情感的交錯裡長大。曾歷經創業壓力、家庭責任與感情重創，他選擇用最溫柔的方式，把自己拉回來——透過音樂。</p>
+    <p>《Bossa Healing》是為同樣「太懂事、太會撐」的大人們創作的療癒系列，希望這張《我心中的風與水》，能在你最需要的時候，陪你一起好好呼吸。</p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <h3>常見問題 Q&A</h3>
+    <div class="faq-item">
+      <b>Q：這張專輯怎麼購買？</b>
+      <span>A：點擊本頁的「前往購買有聲書」按鈕，即可前往合作通路完成購買，購買後可線上收聽或下載。</span>
+    </div>
+    <div class="faq-item">
+      <b>Q：可以在商業空間播放嗎？</b>
+      <span>A：個人收聽完全沒問題；如需商業或公開播放，歡迎與我們聯繫取得授權方案。</span>
+    </div>
+    <div class="faq-item">
+      <b>Q：這張專輯跟一般放鬆音樂有什麼不同？</b>
+      <span>A：除了是原創 Bossa Nova 曲風，也結合腦波頻率與真實生命故事，更重視「陪伴感」與情緒修復，而不只是好聽的背景音樂。</span>
+    </div>
+  </section>
+
+  <!-- Footer CTA -->
+  <section class="footer-cta">
+    <p>如果你也正在練習，在風浪裡好好照顧自己，<br>
+    就讓這張專輯，成為你今天送給自己的第一份禮物。</p>
+    <div class="btn-group" style="justify-content:center;">
+      <a href="#player" class="btn btn-primary">🎧 再次試聽</a>
+      <a href="https://your-buy-link-here" class="btn btn-secondary" target="_blank">📚 立即購買《我心中的風與水》</a>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
